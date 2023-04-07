@@ -1,0 +1,525 @@
+hr{
+  opacity:0; 
+  margin-top: 5%;
+}  
+
+.titulo_menu2 {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  left: 5%;
+  font-size: 400%;
+  color: white;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.titulo {
+  text-align: center;
+  color: green;
+  font-size: 200%;
+  font-family: "Arial Narrow Bold", sans-serif;
+}
+
+.img_text{
+  width: 50%;
+  display: block; 
+  margin-top: 7%;
+  margin-bottom: 7%;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.img_text2{
+  width: 30%;
+  margin-left: 10%;
+}
+
+.img_text3{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.texto {
+  text-indent: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+  font-size: 130%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+}
+
+.texto h3 {
+  text-indent: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+  font-size: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  color:darkgreen ;
+}
+
+.texto ul{
+  text-indent: 5%;
+  margin-left: 0%;
+  font-size: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: justify;
+  list-style-type: initial;
+}
+
+.texto ol {
+  text-indent: 5%;
+  margin-left: 0%;
+  margin-right: 5%;
+  font-size: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: justify;
+}
+
+.texto ol li {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.texto p {
+  opacity: 40%;
+}
+
+/* Responsivo */
+
+@media (max-width: 1400px) {
+
+  .titulo_menu2 {
+    top: 44%;
+    font-size: 290%;
+  }
+  
+  .texto {
+    font-size: 140%;
+  }
+    
+  .titulo {
+    font-size: 160%;
+  }
+    
+  .img_text{
+    width: 70%;
+  }
+
+  .texto ul{
+    margin-left: 10%;
+  }
+    
+  .img_text2{
+    margin-top: -5%;
+    margin-bottom: 5%;
+    width: 35%;
+  }
+  
+}
+  
+@media (max-width: 1300px) {
+
+  .titulo_menu2 {
+    top: 44%;
+    font-size: 260%;
+  }
+  
+  .texto {
+    font-size: 140%;
+  }
+    
+  .titulo {
+    font-size: 160%;
+  }
+  
+  .img_text{
+    width: 70%;
+  }
+
+  .texto ul{
+    margin-left: 10%;
+  }
+    
+  .img_text2{
+    margin-top: -5%;
+    margin-bottom: 5%;
+    width: 35%;
+  }
+  
+}
+  
+@media (max-width: 1200px) {
+
+  .titulo_menu2 {
+    top: 42%;
+    font-size: 250%;
+  }
+  
+  .texto {
+    font-size: 140%;
+  }
+    
+  .titulo {
+    font-size: 160%;
+  }
+  
+  .img_text{
+     width: 70%;
+  }
+  
+  .texto ul{
+    margin-left: 10%;
+  }
+    
+  .img_text2{
+    margin-top: -5%;
+    margin-bottom: 5%;
+    width: 35%;
+  }
+
+}
+  
+@media (max-width: 1100px) {
+
+  .titulo_menu2 {
+    top: 39%;
+    font-size: 250%;
+  }
+  
+  .texto {
+    font-size: 130%;
+  }
+    
+  .titulo {
+    font-size: 150%;
+  }
+  
+  .img_text{
+    width: 70%;
+  }
+
+  .texto ul{
+    margin-left: 10%;
+  }
+    
+  .img_text2{
+    margin-top: -5%;
+    margin-bottom: 5%;
+    width: 35%;
+  }
+  
+}
+  
+@media (max-width: 1000px) {
+
+  .titulo_menu2 {
+    top: 36%;
+    font-size: 200%;
+  }
+  
+  .texto {
+    font-size: 120%;
+  }
+    
+  .titulo {
+    font-size: 130%;
+  }
+  
+  .img_text{
+    width: 70%;
+  }
+  
+  .texto ul{
+    margin-left: 8%;
+  }
+    
+  .img_text2{
+    margin-top: -5%;
+    margin-bottom: 5%;
+    width: 35%;
+  }
+
+}
+  
+@media (max-width: 900px) {
+
+  .titulo_menu2 {
+    top: 35%;
+    font-size: 170%;
+  }
+  
+  .texto {
+    font-size: 120%;
+  }
+    
+  .titulo {
+    font-size: 130%;
+  }
+  
+  .img_text{
+    width: 70%;
+  }
+
+  .texto ul{
+    margin-left: 8%;
+  }
+    
+  .img_text2{
+    margin-top: -10%;
+    margin-bottom: 5%;
+    width: 35%;
+  }
+  
+}
+  
+@media (max-width: 800px) {
+
+  .titulo_menu2 {
+    top: 29%;
+    font-size: 160%;
+  }
+  
+  .texto {
+    font-size: 120%;
+  }
+    
+  .titulo {
+    font-size: 130%;
+  }
+  
+  .img_text{
+    width: 70%;
+  }
+
+  .texto ul{
+    margin-left: 8%;
+  }
+    
+  .img_text2{
+    margin-top: -10%;
+    margin-bottom: 5%;
+    width: 35%;
+  }
+  
+}
+  
+@media (max-width: 700px) {
+
+  .titulo_menu2 {
+    top: 24%;
+    font-size: 145%;
+  }
+  
+  .texto {
+    font-size: 110%;
+  }
+    
+  .titulo {
+    font-size: 130%;
+  }
+  
+  .img_text{
+    width: 70%;
+  }
+
+  .texto ul{
+    margin-left: 8%;
+  }
+    
+  .img_text2{
+    margin-top: -10%;
+    margin-bottom: 5%;
+    width: 35%;
+  }
+  
+}
+  
+@media (max-width: 600px) {
+
+  .titulo_menu2 {
+    top: 19%;
+    font-size: 135%;
+  }
+  
+  .texto {
+    font-size: 90%;
+  }
+    
+  .titulo {
+    font-size: 110%;
+  }
+  
+  .img_text{
+    width: 70%;
+  }
+  
+  .texto ul{
+    margin-left: 8%;
+  }
+    
+  .img_text2{
+    margin-top: -10%;
+    margin-bottom: 5%;
+    width: 35%;
+  }
+
+}
+  
+@media (max-width: 500px) {
+
+  .titulo_menu2 {
+    top: 19%;
+    font-size: 125%;
+  }
+  
+  .texto {
+    font-size: 80%;
+  }
+    
+  .titulo {
+    font-size: 100%;
+  }
+  
+  .img_text{
+    width: 70%;
+  }
+
+  .texto ul{
+    margin-left: 6%;
+  }
+    
+  .img_text2{
+    margin-top: -10%;
+    margin-bottom: 5%;
+    width: 30%;
+  }
+    
+}
+  
+@media (max-width: 450px) {
+
+  .titulo_menu2 {
+    top: 15%;
+    font-size: 105%;
+  }
+  
+  .texto {
+    font-size: 75%;
+  }
+    
+  .titulo {
+    font-size: 100%;
+  }
+  
+  .img_text{
+    width: 70%;
+  }
+
+  .texto ul{
+    margin-left: 5%;
+  }
+    
+  .img_text2{
+    margin-top: -10%;
+    margin-bottom: 5%;
+    width: 30%;
+  }
+      
+}
+  
+@media (max-width: 400px) {
+
+  .titulo_menu2 {
+    top: 15%;
+    font-size: 105%;
+  }
+  
+  .texto {
+    font-size: 70%;
+  }
+    
+  .titulo {
+    font-size: 90%;
+  }
+  
+  .img_text{
+    width: 70%;
+  }
+
+  .texto ul{
+    margin-left: 3%;
+  }
+    
+  .img_text2{
+    margin-top: -10%;
+    margin-bottom: 5%;
+    width: 30%;
+  }
+  
+}
+  
+@media (max-width: 350px) {
+
+  .titulo_menu2 {
+    top: 12%;
+    font-size: 105%;
+  }
+  
+  .texto {
+    font-size: 60%;
+  }
+    
+  .titulo {
+    font-size: 80%;
+  }
+  
+  .img_text{
+    width: 70%;
+  }
+
+  .texto ul{
+    margin-left: 3%;
+  }
+    
+  .img_text2{
+    margin-top: -10%;
+    margin-bottom: 5%;
+    width: 30%;
+  }
+   
+}
+  
+@media (max-width: 300px) {
+
+  .titulo_menu2 {
+    top: 10%;
+    font-size: 105%;
+  }
+  
+  .texto {
+    font-size: 50%;
+  }
+    
+  .titulo {
+    font-size: 70%;
+  }
+  
+  .img_text{
+    width: 70%;
+  }
+
+  .texto ul{
+    margin-left: 3%;
+  }
+    
+  .img_text2{
+    margin-top: -10%;
+    margin-bottom: 5%;
+    width: 30%;
+  }
+
+}
